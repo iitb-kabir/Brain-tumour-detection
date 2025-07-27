@@ -1,0 +1,19 @@
+name: neuroimaging-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11.7
+  - numpy
+  - matplotlib
+  - nibabel
+  - glob2
+  - scikit-learn
+  - tqdm
+  - plotly
+  - ipywidgets
+  - keras
+  - tensorflow
+  - pip
+  - pip:
+      - opencv-python
