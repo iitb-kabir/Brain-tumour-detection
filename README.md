@@ -1,17 +1,17 @@
-# Neuroimaging Environment Setup
+# Brain Tumor Detection Environment Setup
 
 This repository contains configuration files to help you set up a Python environment for neuroimaging and deep learning tasks, including support for working with NIfTI files, training models using Keras/TensorFlow, and visualizing with Plotly.
 
-## 📦 Requirements
+## Requirements
 
 - [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/)
 - Python 3.11.7
 
 ---
 
-## 🛠️ Setup using Conda (`environment.yml`)
+## Setup using Conda (`tumor.yml`)
 
-### 1. Save the file as `environment.yml`
+### 1. Save the file as `tumor.yml`
 
 Make sure `environment.yml` is in your project directory.
 
