@@ -1,22 +1,27 @@
-# Core Scientific Libraries
-numpy==1.26.4
-matplotlib==3.8.4
-scikit-learn==1.4.2
-tqdm==4.66.4
+Project Title
+This repository contains the necessary files to set up a Python environment for your project, likely related to neuroimaging given the environment name in the instructions.
 
-# Medical Imaging & File I/O
-nibabel==5.2.1
-opencv-python==4.9.0.80
+Setup Instructions
+Follow these steps to set up your development environment using Conda:
 
-# Deep Learning
-tensorflow==2.15.0
-keras==2.15.0
+1. Save the Environment File
+First, save the provided environment configuration as environment.yml in the root directory of your project.
 
-# Visualization
-plotly==5.22.0
+2. Create the Conda Environment
+Open your terminal or Anaconda Prompt and navigate to the directory where you saved environment.yml. Then, run the following command to create the Conda environment:
 
-# Widgets for interactive use
-ipywidgets==8.1.2
+conda env create -f environment.yml
 
-# Jupyter Lab (optional, for notebook use)
-jupyterlab==4.2.1
+This command will read the environment.yml file and install all the specified dependencies.
+
+3. Activate the Environment
+Once the environment is created, activate it using the following command:
+
+conda activate neuroimaging-env
+
+You should now be in the neuroimaging-env environment, ready to run your project's code.
+
+Additional Notes
+If your project requires GPU support, ensure your Conda installation and environment are configured accordingly.
+
+If you need additional packages not listed in environment.yml (e.g., tifffile), you can install them after activating the environment using conda install <package-name> or pip install <package-name>.
